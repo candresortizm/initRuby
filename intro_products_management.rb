@@ -19,7 +19,7 @@ products_characteristics = {}
 products.each_with_index do | p , i |
   products_characteristics[p] = {
     #Math.random()*9+1
-    cost: 1+rend(10),
+    cost: 1+rand(10),
     color: "undefined",
     index_product: i
   }
